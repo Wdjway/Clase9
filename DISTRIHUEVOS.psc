@@ -8,7 +8,7 @@ Algoritmo DISTRIHUEVOS
 	Definir nombre_cliente Como Caracter
 	Definir valor_unitario, precio_neto, precio_descuento Como Real
 	
-	valor_unitario= 250.54
+	valor_unitario= 250
 // PROCESO 
 // DATOS  PEDIRLE AL USUARIO
 	
@@ -25,8 +25,8 @@ Algoritmo DISTRIHUEVOS
 	si cantidad >0 y cantidad <= 100 entonces 
 		precio_descuento= precio_neto - (precio_neto * (3/100))
 	SiNo
-		si cantidad < 100 y cantidad <= 200 Entonces
-			precio_descuento=precio_neto -(precio_neto * (5/100))
+		si cantidad > 100 y cantidad <= 200 Entonces
+			precio_descuento= precio_neto -(precio_neto * (5/100))
 			
 		FinSi
 	FinSi

@@ -19,12 +19,12 @@ Algoritmo VALIDAR
 	resultado = numero_1 + numero_2
 	
 	si resultado  >  0 Entonces
-		mostrar "El resultado es negativo"
+		mostrar "El resultado es POSITIVO"
 	SiNo
 		si resultado < 0 Entonces
-			Mostrar "El resultado es positivo"
+			Mostrar "El resultado es NEGATIVO"
 			
-		sino mostrar "El resultado es cero"
+		sino mostrar "El resultado es CERO"
 		FinSi
 	FinSi
 	
